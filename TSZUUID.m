@@ -10,6 +10,7 @@
 
 @implementation TSZUUID
 
+////1111
 + (NSString *)generate {
     CFUUIDRef uuidObj = CFUUIDCreate(nil);
     NSString *temp = (NSString*)CFBridgingRelease(CFUUIDCreateString(nil, uuidObj));
